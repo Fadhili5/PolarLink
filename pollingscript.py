@@ -1,4 +1,4 @@
-# ====
+# This script fetches data from the ONE Record environment
 import requests
 import time
 import threading
