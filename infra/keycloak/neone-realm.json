@@ -1,0 +1,22 @@
+{
+  "realm": "neone",
+  "enabled": true,
+  "accessTokenLifespan": 300,
+  "clients": [
+    {
+      "clientId": "neone-client",
+      "name": "NE:ONE Server - ONE Record Client",
+      "enabled": true,
+      "protocol": "openid-connect",
+      "publicClient": false,
+      "secret": "neone-client-secret-change-me",
+      "standardFlowEnabled": false,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": true,
+      "clientAuthenticatorType": "client-secret-basic",
+      "defaultClientScopes": ["profile", "email"],
+      "optionalClientScopes": ["address", "phone"]
+    }
+  ]
+}
