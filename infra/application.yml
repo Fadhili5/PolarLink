@@ -1,0 +1,9 @@
+quarkus:
+  oidc:
+    enabled: false
+  oidc-client:
+    enabled: false
+    auth-server-url: http://keycloak:8080/realms/neone
+    client-id: neone-client
+    credentials:
+      secret: neone-client-secret-change-me
