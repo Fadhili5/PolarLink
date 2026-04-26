@@ -525,4 +525,7 @@ AeroSentinel is cargo infrastructure software:
 - collaborative execution
 - full auditability
 
+
+To view updated working demo with all integrations working ; check it here :  https://drive.google.com/file/d/1oyL_eTT2e3CNbzGPZQKTQYS4E8RObFLy/view?usp=sharing
+
 That is the direction of the platform, and this repository already implements a meaningful slice of that operating model today.
